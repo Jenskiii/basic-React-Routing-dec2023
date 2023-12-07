@@ -16,7 +16,7 @@ export function TeamNav() {
         })}
 
         <li >
-          <Link to="new">New Teanm Member</Link>
+          <Link to="new">New Team Member</Link>
         </li>
 
         {/* nexted inside /team so dont need to use /team/joe , /team/sally
