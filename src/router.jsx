@@ -14,7 +14,7 @@ export const router = createBrowserRouter([
     // outputs error if there is one, can be placed on each link to debug, prevered on childs
     errorElement: <h1>error</h1>,
     children: [
-      { path: "*", element: <Navigate to="/"/>}, // if link doesnt redirects back to home page
+      { path: "*", element: <Navigate to="/"/>}, // if link doesnt exist,  redirects back to home page
       // { path: "*", element: <h1>404 ERROR</h1> }, // if link doesnt exist outputs 404 error
       { path: "/", element: <Home /> },
       { path: "/store", element: <Store /> },
